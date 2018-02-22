@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="extra.css" />
+  <link rel="stylesheet" href="fonts.css" />
+  <title>Utilities | Everything Drive</title>
+  <script src="filter.js"></script>
+</head>
+<body>
+  <div class="main-link-tab shadow-small">
+    <div class="padding-2">
+      <div class="main-links">
+        <a href="index.html">Homepage</a>
+        <a href="#" class="link-space">------</a>
+        <a href="games.html">Games</a>
+        <a href="utilities.html" class="selected-a">Utilities</a>
+        <a href="#" class="disabled">Movies</a>
+        <a href="#" class="disabled">TV Shows</a>
+        <a href="wallpapers.html">Wallpapers</a>
+        <a href="#" class="disabled">Emulation</a>
+        <a href="#" class="link-space">------</a>
+        <a href="#" class="disabled">NSFW</a>
+        <div class="float-right">
+          <a href="mailto:everythingtdrive@gmail.com">Email Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="padding-10">
+    <div class="inline box-left shadow-small">
+      <div class="padding-8">
+        <h1 class="title-text">Games</h1>
+        <br>
+        <div class="padding-10">
+          <div class="game-list">
+            <div id="adminneeded" class="shadow-small">
+              <h3 class="title-text">Programs That Need Admin</h3>
+              <a href="https://drive.google.com/open?id=1JO9a_xF8mGFj5EJqBkK7CkoabIDPV6rA" target="_blank">Download Spotify Ad Remover (553KB)</a><br>
+            </div>
+            <br><br>
+            <a href="https://drive.google.com/open?id=1PcdBEKV7NEyJumfdnAbPEFaEZz6g0Yn3" id="game" target="_blank">Download Adobe Photoshop (511MB)</a><br>
+            <a href="https://drive.google.com/open?id=1DVFEKjtRs0d4F3D7fnXPRV4F1QOo8anS" id="game" target="_blank">Download 7-Zip (2MB)</a><br>
+            <a href="https://www.mozilla.org/en-US/firefox/" id="game" target="_blank">Download Firefox (304KB)</a><br>
+            <a href="https://drive.google.com/open?id=1WlDQXrqRql1n4scNxmrocN5aq7pAVRnk" id="game" target="_blank">Download Kodi (118MB)</a><br>
+            <a href="https://drive.google.com/open?id=15Z03jjCIk6o6ef0WNRLyC_JC_a3e-sbg" id="game" target="_blank">Download MuseScore (48MB)</a><br>
+            <a href="https://drive.google.com/open?id=1gWh4CmS5fyG6SWhKRSDjkgSmfqVyp3-_" id="game" target="_blank">Download Psiphon VPN (6MB)</a><br>
+            <a href="https://www.spotify.com/us/download/windows/" id="game" target="_blank">Download Spotify (709KB)</a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="inline box-right shadow-small">
+      <div class="padding-8">
+        <h3 class="title-text">Filters</h3>
+        <p id="filter-text"></p>
+      </div>
+      <button class="filter-btn" onclick="showAdmin()">show programs that need admin</button><br>
+      <button class="hidden filter-btn" onclick="hideAdmin()" id="remove-filter-btn">hide filters</button>
+    </div>
+  </div>
+</body>
+</head>
