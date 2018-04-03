@@ -23,7 +23,6 @@ a {
 }
 a:hover {
   color:#fff;
-  text-shadow:0px 0px 5px #bbb;
   border-bottom:3px solid #fff;
 }
 .nbtn {
@@ -43,4 +42,14 @@ a:hover {
 .disabled {
   opacity:0.5;
   cursor:not-allowed;
+}
+.report-p {
+  font-size:15px;
+}
+.report-a {
+  text-decoration:underline;
+}
+.report-a:hover {
+  text-shadow:none;
+  border:none;
 }
