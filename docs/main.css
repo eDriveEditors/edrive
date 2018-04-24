@@ -60,23 +60,21 @@ a:hover {
   border:none;
 }
 .tag {
-  color:#222;
-  transition-duration:0.1s;
+  color:#d1d1d1;
   padding:2px;
   text-decoration:none;
   width:100%;
   margin-top:2px;
   margin-bottom:2px;
-  background-color:#d9d9d9;
+  background-color:#454554;
   border-radius:3px;
   border:none;
   margin-left:5px;
 }
 .tag:hover {
-  text-shadow:none;
-  background-color:#fff;
-  color:#222;
+  color:#d1d1d1;
   border:none;
+  padding:2px;
 }
 .tvbtn {
   width:49.5%;
