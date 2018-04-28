@@ -100,3 +100,14 @@ a:hover {
   margin-top:3px;
   margin-bottom:3px;
 }
+.hot {
+  background-color:red;
+  color:#23232D;
+  font-weight: bold;
+}
+.hot:hover {
+  color:#23232D;
+}
+
+
+  
