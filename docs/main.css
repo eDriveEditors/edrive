@@ -109,6 +109,11 @@ a:hover {
   background-color:#ff3333;
   color:#23232D;
 }
-
+.important-div {
+  color:#fff;
+  background-color:#800000;
+  border-radius:3px;
+  padding:6px;
+}
 
   
