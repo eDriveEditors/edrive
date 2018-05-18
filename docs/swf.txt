@@ -1,1 +1,0 @@
-<object type="application/x-shockwave-flash" data="//www.coolmath-games.com/sites/cmatgame/files/games/run3.swf" id="swfObjID" width="800" height="600"><param name="allowScriptAccess" value="always"><param name="movie" value="Run3.swf"><param name="menu" value="false"><param name="quality" value="high"><param name="wmode" value="direct"></object>
