@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width:device-width, initial-scale:1" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-  <link rel="stylesheet" href="main.css" />
-  <title>The Everything Drive</title>
-</head>
+<title>The Everything Drive</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css" />
+<link rel="stylesheet" href="main.css" />
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<script src="js/sidebar.js"></script>
 <body>
-  <h1>The Everything Drive</h1>
-  <h3>Programs for Everyone</h3>
-  <div class="important-div">
-    <p><b><u>IMPORTANT:</u></b> No updates will be made to the website content until I have completed the redesign for the website.</p>
+  <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left ed-sidebar" style="width:200px;" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-large w3-hide-large dark-button-h-2" onclick="w3_close()">Close &times;</button>
+    <br>
+    <a href="index.html" class="w3-bar-item w3-button dark-button-h-2 current-selected">Home</a>
+    <a href="games.html" class="w3-bar-item w3-button dark-button-h-2">Games</a>
+    <a href="movies.html" class="w3-bar-item w3-button dark-button-h-2">Movies</a>
+    <a href="utilities.html" class="w3-bar-item w3-button dark-button-h-2">Utilities</a>
+    <a href="firmware.html" class="w3-bar-item w3-button dark-button-h-2">Firmware</a>
+    <a href="proxys.html" class="w3-bar-item w3-button dark-button-h-2">VPNs</a>
+    <br>
+    <a href="suggestions.html" class="w3-bar-item w3-button dark-button-h-2">Submit A Request</a>
   </div>
-  <p class="report-p">Report problems to the webmaster at everythingdrivewm@outlook.com</p>
-  <a href="blockunblock.html" class="nbtn" target="_blank">Do I have a blocked computer?</a><br>
-  <a href="unblockedgames.html" class="nbtn" target="_blank">Games For Unblocked Computers</a><br>
-  <a href="blockedgames.html" class="nbtn" target="_blank">Games for Blocked Computers</a><br>
-  <a href="blog.html" class="nbtn" target="_blank">Important Posts</a><br>
-  <a href="movies.html" class="nbtn" target="_blank">Movies</a><br>
-  <a href="tv.html" class="nbtn" target="_blank">TV Shows</a><br>
-  <a href="utilities.html" class="nbtn" target="_blank">Utilities</a><br>
-  <p class="report-p" style="text-align:center;">Website by Agent Blowfish, made possible by the guys down at Everything Drive.</p>
-  <p class="report-p" style="text-align:center;"><i>everythingdrive.com</i></p>
+  <div class="w3-main" style="margin-left:200px">
+  <div>
+    <button class="w3-button w3-xlarge w3-hide-large dark-button-h" onclick="w3_open()">&#9776;</button>
+    <div class="w3-container">
+      <h1 class="w-blue-color"><b>The Everything Drive</b></h1>
+      <p>Movies, games, and utilities being added marginally, check back regularly for new content.</p>
+      <p>You can find the old site <a href="https://everythingdrive.github.io/legacy/" target="_blank">here</a> until all content is up.</p>
+    </div>
+  </div>
+  <div class="w3-container">
+    
+  </div>
+  </div>
+  </div>
+</body>
+</html>

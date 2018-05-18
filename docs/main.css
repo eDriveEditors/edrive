@@ -1,119 +1,64 @@
 body {
-  margin:40px auto;
-  max-width:650px;
-  line-height:1.6;
-  font-size:18px;
-  color:#eee;
-  padding:0 10px;
-  font-family:Arial;
-  background-color:#23232D;
-}
-h1,h2,h3 {
-  line-height:1.2;
-}
-.quote {
-  border-left:3px solid #454554;
-  padding-left:6px;
-}
-a {
-  color:#d9d9d9;
-  transition-duration:0s;
-  padding:2px;
-  text-decoration:none;
-  width:100%;
-  margin-top:2px;
-  margin-bottom:2px;
-}
-a:hover {
+  font-family:'Segoe UI', Arial, Helvetica, sans-serif;
+  background-color:#101010;
   color:#fff;
-  border-bottom:3px solid #454554;
-  text-shadow:none;
 }
-.nbtn {
-  padding:2px 10px;
-  text-decoration:none;
-  color:white;
-  text-align:center;
-  border:none;
-  border-radius:0px;
-  display:inline-block;
+.w3-sidebar {
+  color:#000;
+}
+.quotes p {
+  border-left:3px solid #000080;
+  padding-left:3px;
+}
+.quotes p b {
+  color:#000080;
+}
+.dark-button-h {
+  background-color:#101010;
+  color:#fff;
   transition-duration:0.1s;
-  background-color:#2C2C36;
-}
-.nbtn:hover {
-  border:none;
-  padding:2px 10px;
-  background-color:#454554;
-}
-.disabled {
-  opacity:0.35;
-  cursor:not-allowed;
-}
-.report-p {
-  font-size:15px;
-}
-.report-a {
-  text-decoration:underline;
-}
-.report-a:hover {
-  text-shadow:none;
   border:none;
 }
-.tag {
-  color:#d1d1d1;
-  padding:2px;
-  text-decoration:none;
-  width:100%;
-  margin-top:2px;
-  margin-bottom:2px;
-  background-color:#454554;
-  border-radius:3px;
-  border:none;
-  margin-left:5px;
+.dark-button-h:hover {
+  background-color:#202020 !important;
+  color:#fff !important;
 }
-.tag:hover {
-  color:#d1d1d1;
-  border:none;
-  padding:2px;
+.dark-button-h-2:hover {
+  background-color:#303030 !important;
+  color:#fff !important;
 }
-.tvbtn {
-  width:49.5%;
-  text-decoration:none;
-  color:white;
-  font-size:20px;
-  text-align:left;
-  padding:5px;
-  border-radius:0px;
-  display:inline-block;
-  transition-duration:0.1s;
-  border-radius:6px;
+.ed-sidebar {
+  background-color:#202020 !important;
+  color:#fff;
+}
+.current-selected {
+  background-color:#303030;
+}
+.desc {
+  border-left:3px solid #303030;
+  padding:4px;
+  margin-left:10px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.link {
+  font-weight:bold;
   border:none;
+  transition-duration:0.2s;
+  color:#fff;
   background-color:transparent;
+  border-radius:5px;
+  margin-bottom:2px;
+  margin-top:2px;
+  border-bottom:2px solid #303030;
+  text-decoration:none;
 }
-.tvbtn:hover {
-  background-color:#2f2f2f;
+.link:hover {
+  background-color:#303030;
+  cursor:pointer;
 }
-.hidden {
-  display:none;
+iframe {
+  border-radius:4px;
+  box-shadow:0px 3px 15px #4d4d4d;
+  margin-left:15px;
 }
-.episodes {
-  margin-top:3px;
-  margin-bottom:3px;
-}
-.hot {
-  background-color:#ff0000;
-  color:#23232D;
-  font-weight: bold;
-}
-.hot:hover {
-  background-color:#ff3333;
-  color:#23232D;
-}
-.important-div {
-  color:#fff;
-  background-color:#800000;
-  border-radius:3px;
-  padding:6px;
-}
-
-  
