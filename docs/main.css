@@ -32,7 +32,16 @@ body {
   color:#fff;
 }
 .current-selected {
+  padding:0px;
   background-color:#303030;
+}
+div.block-red {
+  padding:1px;
+  background-color:#ff0000;
+  height:100%;
+  color:#ff0000;
+  float:left;
+  position:inline-block;
 }
 .desc {
   border-left:3px solid #303030;

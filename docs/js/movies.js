@@ -166,3 +166,27 @@ function bwo() {
     a.style.display="none";
   }
 }
+function blackpanther() {
+  var a = document.getElementById("blackpanther");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
+function bladerunner() {
+  var a = document.getElementById("bladerunner");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
+function bladerunner2049() {
+  var a = document.getElementById("bladerunner2049");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
