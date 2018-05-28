@@ -190,3 +190,91 @@ function bladerunner2049() {
     a.style.display="none";
   }
 }
+function bossbaby() {
+  var a = document.getElementById("bossbaby");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
+function bournecat() {
+  var a = document.getElementById("bournecat");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
+function jbidentity() {
+  var a = document.getElementById("jbidentity");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
+function jbsupremacy() {
+  var a = document.getElementById("jbsupremacy");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
+function jbultimatum() {
+  var a = document.getElementById("jbultimatum");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
+function jblegacy() {
+  var a = document.getElementById("jblegacy");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
+function cacat() {
+  var a = document.getElementById("cacat");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
+function cafirstavenger() {
+  var a = document.getElementById("cafirstavenger");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
+function cacivilwar() {
+  var a = document.getElementById("cacivilwar");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
+function cawintersoldier() {
+  var a = document.getElementById("cawintersoldier");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
+function casper() {
+  var a = document.getElementById("casper");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
