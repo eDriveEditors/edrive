@@ -182,6 +182,14 @@ function bladerunner() {
     a.style.display="none";
   }
 }
+function breakfastclub() {
+  var a = document.getElementById("breakfastclub");
+  if (a.style.display === "none") {
+    a.style.display="inline-block";
+  } else {
+    a.style.display="none";
+  }
+}
 function bladerunner2049() {
   var a = document.getElementById("bladerunner2049");
   if (a.style.display === "none") {
